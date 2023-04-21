@@ -18,7 +18,6 @@ signals:
     void sig(int32_t s32_number);
 
 private:
-    //QString s_PathDirectory="";
 };
 
 #endif // DECHIFFRAGE_H

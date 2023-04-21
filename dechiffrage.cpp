@@ -1,6 +1,5 @@
 #include "dechiffrage.h"
 #include <iostream>
-#include <vector>
 #include <QString>
 using namespace std;
 
@@ -28,7 +27,7 @@ void dechiffrage::dechiffre(QString s_PathDirectory, QString s_ImagePath, QStrin
 {
     string s_password;
     s_password=s_PassWord.toUtf8().constData();
-    s_password = s_Cesar(s_password,10);
+    s_password = s_Cesar(s_password,16);
     QString s_command = "steghide extract -sf "+ s_ImagePath  + " -xf "+ s_PathDirectory +"message.txt -p" + s_PassWord;
     FILE* pipePtr = popen(s_command.toStdString().c_str(), "r");
     if (pipePtr == nullptr)
