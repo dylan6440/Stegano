@@ -10,3 +10,6 @@ Directory permet de selectionn√© le dossier ou l'on souhaite ecrir le code cach√
 Password pour ecrire le mots de passe qui permet de faire le dechiffrage du code.
 
 Pour finir Get message permet de lancer le dechiffrement
+
+## Resultat
+![image](https://user-images.githubusercontent.com/70941138/233666837-ddfbce66-5804-4d36-94ca-e0f4e0288bd6.png)
